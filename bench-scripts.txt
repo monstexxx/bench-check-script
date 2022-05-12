@@ -1,0 +1,32 @@
+================================================================================================================================================================
+bench.sh
+https://bench.sh - view system information and test the network, disk of your Linux server.
+wget -qO- bench.sh | bash
+================================================================================================================================================================
+nench
+https://github.com/n-st/nench - A script loosely based on the established freevps.us/bench.sh.
+(curl -s wget.racing/nench.sh | bash; curl -s wget.racing/nench.sh | bash) 2>&1 | tee nench.log
+================================================================================================================================================================
+vpsbench
+https://github.com/mgutz/vpsbench - A script to run simple and comprehensive benchmarks on CPU and IO performance.
+bash <(wget --no-check-certificate -O - https://raw.github.com/mgutz/vpsbench/master/vpsbench)
+================================================================================================================================================================
+VPS Benchmark
+http://busylog.net/vps-benchmark/ - Benchmark disk, cpu and network.
+wget http://busylog.net/FILES2DW/busytest.sh -O - -o /dev/null | bash
+================================================================================================================================================================
+Linux Bench
+https://github.com/STH-Dev/linux-bench 
+Linux-Bench is a sscript that runs hardinfo, Unixbench 5.1.3, c-ray 1.1, STREAM, OpenSSL, sysbench (CPU), crafty, redis, NPB, NAMD, and 7-zip benchmarks.
+wget https://raw.githubusercontent.com/STH-Dev/linux-bench/master/linux-bench.sh && chmod +x linux-bench.sh && ./linux-bench.sh
+================================================================================================================================================================
+bench-sh-2
+https://github.com/hidden-refuge/bench-sh-2 - System Info + Speedtest IPv4 + Drive Speed.
+wget https://raw.githubusercontent.com/hidden-refuge/bench-sh-2/master/bench.sh && chmod +x bench.sh && ./bench.sh
+================================================================================================================================================================
+unixbench.sh
+https://github.com/teddysun/across/blob/master/unixbench.sh - Auto install unixbench and test script. (https://teddysun.com/245.html)
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbench.sh
+chmod +x unixbench.sh
+./unixbench.sh
+================================================================================================================================================================
